@@ -1,0 +1,20 @@
+{% extends "frontend/modules/base.html" %}
+
+{% block title %} Chat.Me: Start A Chat {% endblock %}
+
+{% comment %}
+ * The template for the index page.
+{% endcomment %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'frontend/css/chat.css' %}">
+{% endblock %}
+
+{% block content %}
+<div id="Chat"></div>
+{% endblock %}
+
+{% block js %}
+<script src="{% static "frontend/js/chat.js" %}"></script>
+{% endblock %}

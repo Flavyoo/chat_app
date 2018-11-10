@@ -1,0 +1,21 @@
+
+{% extends "frontend/modules/base.html" %}
+
+{% block title %} Chat.Me: Welcome {% endblock %}
+
+{% comment %}
+ * The template for the Home page.
+{% endcomment %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'frontend/css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+<div id="Home"></div>
+{% endblock %}
+
+{% block js %}
+<script src="{% static "frontend/js/home.js" %}"></script>
+{% endblock %}

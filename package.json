@@ -1,0 +1,37 @@
+{
+  "name": "chat.me",
+  "version": "1.1.0",
+  "scripts": {
+    "dev:js": "webpack --watch",
+    "build:js": "webpack -p --progress",
+    "format": "prettier --write \"{attendee_app,frontend}/**/*.js\" webpack.config.js",
+    "format:check": "prettier --list-different \"{attendee_app,frontend}/**/*.js\" webpack.config.js"
+  },
+  "authors": [
+    "Flavio Andrade <flavioandrade1918@gmail.com> (https://github.com/flavyoo)"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Flavyoo/Estalee#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-table": "^6.8.6",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "node-sass-chokidar": "^1.3.3",
+    "npm-run-all": "^4.1.3",
+    "prettier": "^1.14.3",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

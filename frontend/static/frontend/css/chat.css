@@ -1,0 +1,50 @@
+body {
+	color: white;
+}
+
+.chatArea {
+	height: 100%;
+	width: 25%;
+	position: fixed;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.chatArea-header {
+	width: 100%;
+	border-bottom: 1px solid #02FCCE;
+	text-align: center;
+}
+
+.chatMe-header  {
+	font-size: 36px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+#messageInput {
+	width: 96%;
+	margin: 0 auto;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	position: absolute;
+}
+
+.contactArea {
+	height: 100%;
+	width: 75%;
+	position: fixed;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.left {
+	left: 0;
+	background-color: #602ADD;
+}
+
+.right {
+	right: 0;
+	background-color: white;
+}

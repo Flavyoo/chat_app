@@ -1,0 +1,30 @@
+
+#Home {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-color: #602ADD;
+}
+
+.Home-header {
+	margin: 5% auto;
+	text-align: center;
+}
+
+.Home-header-title {
+	font-size: 48px;
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+}
+
+.LoginOrSignUp {
+	margin: 0 auto;
+	background-color: white;
+	max-width: 480px;
+	padding: 3%;
+	border-radius: 3%;
+}
+
+.LoginOrSignUp-message {
+	margin-top: 20px;
+}

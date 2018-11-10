@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'frontend/chat_app/home.html')
+
+def chat(request):
+    return render(request, 'frontend/chat_app/chat.html')
