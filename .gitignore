@@ -108,6 +108,7 @@ ENV/
 node_modules/
 env.bak/
 venv.bak/
+chat_app/migrations
 
 # Spyder project settings
 .spyderproject

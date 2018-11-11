@@ -13,13 +13,16 @@
   "license": "ISC",
   "homepage": "https://github.com/Flavyoo/Estalee#readme",
   "dependencies": {
+    "js-cookie": "^2.2.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
+    "react-router": "^4.3.1",
     "react-table": "^6.8.6",
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-class-properties": "^6.24.1",

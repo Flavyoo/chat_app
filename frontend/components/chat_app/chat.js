@@ -32,6 +32,9 @@ class Chat extends Component {
 		  <div className="chatArea left">
 		    <div className="chatArea-header">
 		      <p className="chatMe-header">Chat.Me</p>
+			  <a href="/logout/" className="u-link Navbar-link">
+	            Logout
+	          </a>
 		    </div>
 		  </div>
 		  <div className="contactArea right">
